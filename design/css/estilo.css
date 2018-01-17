@@ -1,0 +1,845 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin								: 0;
+	padding								: 0;
+	border								: 0;
+	outline								: 0;
+	font-weight							: inherit;
+	font-style							: inherit;
+	font-size							: 100%;
+	font-family							: inherit;
+	vertical-align						: baseline;
+}
+
+a abbr {
+	cursor 								: pointer;
+}
+
+abbr {
+	cursor								: help;
+}
+
+body {
+	line-height							: 1;
+	color								: black;
+	background							: white;
+}
+
+ol, ul {
+	list-style							: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse						: separate;
+	border-spacing						: 0;
+}
+
+caption, th, td {
+	text-align							: left;
+	font-weight							: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content								: "";
+}
+
+blockquote, q {
+	quotes								: "" "";
+}
+
+/* FIM DO RESET */
+
+a {
+	cursor								: pointer;
+	text-decoration						: none;
+	color:#000;
+}
+
+a:hover {
+	text-decoration						: underline;
+	color:#00adcd;
+}
+
+strong {font-weight: bold !important;}
+
+img {behavior: url("iepngfix.htc");}
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#eeeeee;
+	background-image:url(../imagens/backgrounds/background.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+	font-family: Arial;
+	font-size:12px;
+	color:#000;
+	line-height:16px;
+}
+
+p {margin-bottom:15px !important;}
+
+
+div.tudo {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+div.principal {
+margin: 0px auto;
+width: 966px;
+
+position:relative;
+}
+
+div.topo {
+width: 956px;
+height: 136px;
+}
+
+	div.topo img.logo {
+		float: left;
+	}
+	
+		div.topo div.menuzinho{
+			margin-top:55px;
+			float:right;
+		}
+	
+			div.topo div.menuzinho UL LI {
+				float: left;
+			}
+	
+			div.topo div.menuzinho UL A {
+				display	: block;
+				float: left;
+				font-family	: Arial, Verdana, Sans-Serif;
+				font-size: 11px;
+				height: 22px !important; 
+				text-align: center;
+				width:22px;
+			}
+	
+			div.topo div.menuzinho UL A span {
+				display	: none;
+				height: 22px ;
+				width:22px;
+			}
+			
+			
+			div.topo div.menuzinho UL li A:hover  {background-position: center bottom;}
+			
+			div.topo div.menuzinho UL li.home a {background-image: url("../imagens/botoes/home.png");}
+			div.topo div.menuzinho UL li.mapa a {background-image: url("../imagens/botoes/mapa.png");}
+			div.topo div.menuzinho UL li.contato a {background-image: url("../imagens/botoes/contato.png");}
+			div.topo div.menuzinho UL li.restrito a {background-image: url("../imagens/botoes/restrito.png");}
+			
+			
+			
+		/* ------------------------ MENU ------------------------ */
+
+		
+	div.topo div.menu {
+		width: 535px;
+		height:31px;
+		position:absolute;
+		top:98;
+		right:-6;
+	}
+		
+		div.topo div.menu UL {width: 537px;	}
+		
+		div.topo div.menu UL LI {float: left;}
+		
+		div.topo div.menu UL A {
+			display	: block;
+			float: left;
+			height: 31px !important; 
+		}
+			
+			div.topo div.menu UL li A:hover  {background-position: center bottom;}
+				
+			div.topo div.menu UL li.empresa a {background-image: url("../imagens/backgrounds/bg_menu_empresa.png"); width:130px;}
+			div.topo div.menu UL li.produtos a {background-image: url("../imagens/backgrounds/bg_menu_produtos.png"); width:121px;}
+			div.topo div.menu UL li.info a {background-image: url("../imagens/backgrounds/bg_menu_informacoes.png"); width:156px;}
+			div.topo div.menu UL li.contato a {background-image: url("../imagens/backgrounds/bg_menu_contato.png"); width:130px;}
+			
+			
+div.centro {
+	width: 966px;
+	height: auto;
+}
+
+	div.centro div.bannerGrande {
+		width: 671px;
+		height: 281px;
+		float: left;
+		margin-top:4px;
+	}
+	
+	
+	div.centro div.direita {
+		width: 285px;
+		height: 467px;
+		float: right;
+		background: url("../imagens/backgrounds/bg_direita.png") center top;
+		behavior: url("iepngfix.htc");
+		background-repeat: no-repeat;
+		
+	}
+	
+		div.centro div.direita div.novidades IMG {
+			margin-top:13px;
+		}
+		
+		div.centro div.direita div.novidades table {
+			width:270px;
+			float: left;
+			margin: 5px;
+		}
+		
+			div.centro div.direita div.novidades table TR {
+				border-bottom:1px solid #eeeeee;
+			}
+		
+			div.centro div.direita div.novidades table TR TD {
+				vertical-align: top;
+				padding: 0 5px;
+			}
+			
+			div.centro div.direita div.novidades table TR TD.imgNovi IMG {
+				margin-left:10px;
+			}
+			
+			div.centro div.direita div.novidades table TR TD P  {
+				font-weight: bold;
+				margin-bottom:5px;
+			}
+			
+			div.centro div.direita div.novidades table TR TD hr  {
+				height:1px;
+				width: 230px;
+				color:#eee;
+				
+			}
+			
+	
+	div.centro div.direita div.noticias table {
+			width:255px;
+			margin: 10px 5px 5px 25px;
+	}
+	
+		div.centro div.inferior div.curiosidades UL li a:hover,
+		div.centro div.direita div.novidades table a:hover,
+		div.centro div.direita div.noticias table a:hover {
+				color:#00adcd;
+		}
+		
+		div.centro div.direita div.noticias table TR TH {
+			padding-bottom:5px;
+		}
+	
+			div.centro div.direita div.noticias table TR TH A {
+				font-weight: bold;
+				text-align:left;
+				color:#000;
+			}
+		
+		div.centro div.direita div.noticias table TR TD {
+			padding-bottom:10px;
+			*padding-bottom:8px;
+		}
+		
+		div.centro div.direita div.novidades table TR TD A,
+		div.centro div.direita div.noticias table TR TD A {
+			text-align:left;
+			color:#000;
+			font-size:12px;
+		}
+	
+	
+
+	div.centro div.inferior {
+		width: 678px;
+		height: 180px;
+		float: left;
+	}
+	
+		div.centro div.inferior div.lancamentos {
+			margin-top:6px;
+			width: 338px;
+			height: 178px;
+			float: left;
+		}
+		
+		div.centro div.inferior div.curiosidades {
+			margin-top:6px;
+			width: 338px;
+			height: 178px;
+			float: right;
+			background-image: url("../imagens/backgrounds/bg_rosa.png");
+			background-position: center top;
+			behavior: url("iepngfix.htc");
+			background-repeat: no-repeat;
+		}
+		
+		div.centro div.inferior div.curiosidades IMG {
+			margin-top: 14px;
+		}
+		
+		div.centro div.inferior div.curiosidades UL {
+			list-style-type: disc;
+			text-align:left;
+			margin: 15px 15px 10px 15px;
+			font-weight:bold;
+			height: 111px;
+			*height: 108px;
+			background-image: url("../imagens/backgrounds/curiosidades.jpg");
+			background-position: right bottom;
+			background-repeat: no-repeat;
+			padding-left:20px;
+		}
+		
+		div.centro div.inferior div.curiosidades UL li {
+			margin-bottom:10px;
+		}
+		
+		div.centro div.inferior div.curiosidades UL li a {
+			color:#000;
+		}
+
+		
+div.rodape {
+	margin-top:20px;
+	width: 958px;
+	height: 50px;
+	behavior: url("iepngfix.htc");
+}
+	div.rodape P {
+		color: #666666;
+		font-size:11px;
+		margin-bottom:20px;
+	}
+	
+	
+	/* PAGINAS INTERNAS ---------------- */
+	
+	div.centro div.subMenu {
+		width: 956px;
+		height: 44px;
+	}
+	
+	div.centro div.subMenu ul.subMenu { padding-top:15px; margin-left:30px; display:block;}
+	
+		div.centro div.subMenu ul.subMenu li{float:left; margin-right:40px;}
+		
+			div.centro div.subMenu ul.subMenu li a {
+				font-size: 22px;
+				font-weight: normal;
+				text-align:center;
+				color: #000000;
+			}
+	
+	div.centro div.conteudoInternas {
+		background: #fff;
+		width: 956px;
+	}
+	
+		div.centro div.conteudoInternas p {
+			padding:30px 30px 10px 30px;
+			text-align:justify;
+		}
+		
+		div.centro div.conteudoInternas h1 {
+			font-size: 20px;
+			font-weight: normal;
+			text-align:left;
+			color: #000000;
+			width:100%;
+			padding: 20px 0 0 30px;
+			color:#666;
+		}
+		
+		div.centro div.conteudoInternas h2 {
+			font-size: 16px;
+			font-weight: bold;
+			text-align:left;
+			color: #000000;
+			width:100%;
+			padding-left:30px;
+		}
+		
+	
+	div.centro div.rodapeInternas {
+		width: 956px;
+		height: 16px;
+	}
+	
+	/* EMPRESA */
+	
+	div.centro div.subMenu#empresa {background:url(../imagens/backgrounds/topoEmpresa.png) no-repeat center top;}
+
+	div.centro div.rodapeInternas#empresa{background:url(../imagens/backgrounds/rodapeEmpresa.png) no-repeat center top;}
+	
+	div.centro div.conteudoInternas#empresa p IMG.loja {float:right; margin-left:30px;}
+	
+	div.centro div.conteudoInternas#empresa p.historia {
+			width:425px; 
+			height: 380px;
+	}
+	
+	div.centro div.conteudoInternas#empresa p.direita {
+			width:425px; 
+			position: absolute;
+			top:210px;
+			right:0;
+	}
+	
+		div.centro div.conteudoInternas#empresa address {
+			width:300px; 
+			border:1px solid #999; 
+			padding:10px;
+			text-align:left;
+			margin: 20px 0 0 30px;
+			display:block;
+		}
+	
+		div.centro div.conteudoInternas#empresa ul.pontosVenda{
+			width:200px;
+			float:left;
+			display:block;
+			margin-left: 30px;
+		}
+		
+		div.centro div.conteudoInternas#empresa ul.pontosVenda li{text-align:left; margin-bottom:10px;}
+		
+		div.centro div.conteudoInternas#empresa ul.pontosVenda li a{
+			font-weight:bold;
+		}
+		
+		div.centro div.conteudoInternas#empresa ul.listaPontosVenda{margin:15px 0px 0px 0px;}
+		
+	
+			div.centro div.conteudoInternas#empresa ul.listaPontosVenda li{
+				width:260px; height:100px;
+				display:block;
+				border:1px solid #ddd;
+				float:left;
+				color:#666;
+				padding:10px;
+				margin:0px 0px 20px 20px
+			}
+		
+				div.centro div.conteudoInternas#empresa ul.listaPontosVenda li p{
+					padding:0;margin:0;text-align:left;
+					line-height:14px;
+				}
+				
+				div.centro div.conteudoInternas#empresa ul.listaPontosVenda li h3 {
+					font-weight:bold;
+					font-size:14px;
+					text-align:left;
+					border-bottom: 1px solid #00adcd;
+					width:100%;
+					color:#000000;
+				}
+	
+				div.centro div.conteudoInternas#empresa ul.listaPontosVenda li strong{
+					font-weight:bold;  
+					display:block; 
+					width:70px; 
+					float:left;
+					text-align:left;
+					margin-bottom:5px;
+				}
+		
+		ul.galeriaFotos{
+			float:left;
+			margin-left:60px;
+			margin-top:15px;
+			
+		}
+		
+		 ul.galeriaFotos li{
+			width:122px;
+			float:left;
+			height: 92px;
+			margin-right:15px;
+			margin-bottom:15px;display:block;
+		}
+		
+		div.centro div.conteudoInternas#produtos div.esquerda ul li img,
+		ul.galeriaFotos li img{border:1px solid #CCC;}
+		
+		ul.galeriaFotos li img{height:90px;}
+		
+		/* PRODUTOS */
+		
+		/* sorvetes*/
+		
+		body#sorvetes ul.galeriaFotos li {height:120px;}
+		
+		body#sorvetes h2 {margin:15px 0px; display:block; width:926px; background-color:#FF9; padding: 5px 0px 5px 30px;;}
+		
+		/* --- */
+		
+		div.centro div.subMenu#produtos {background:url(../imagens/backgrounds/topoProdutos.png) no-repeat center top;}
+		
+		div.centro div.rodapeInternas#produtos{background:url(../imagens/backgrounds/rodapeProdutos.png) no-repeat center top;}
+		
+		div.centro div.conteudoInternas#produtos div.esquerda {
+			border-right:1px dashed #ccc;
+			width: 425px;
+			float: left;
+			margin-left:30px;
+			margin-top:20px;
+		}
+		
+			div.centro div.conteudoInternas#produtos div.esquerda ul {float: left;}
+			
+			div.centro div.conteudoInternas#produtos div.esquerda ul li {
+				float: left;
+				margin: 0 15px 10px 0;
+			}
+			
+			div.centro div.conteudoInternas#produtos div.esquerda ul li a {font-weight: bold;}
+			
+			div.centro div.conteudoInternas#produtos div.direita {
+				background:none;
+				width: 435px;
+				float: left;
+				margin: 20px 30px 0 30px;
+			}
+			
+				div.centro div.conteudoInternas#produtos div.direita h2,
+				div.centro div.conteudoInternas#produtos div.direita p { margin:0; padding:0;}
+				
+				div.centro div.conteudoInternas#produtos div.direita img{
+					width:400px; 
+					height:303px; 
+					border:1px solid #CCC;
+					margin: 20px 0;
+					float:left;
+				}
+				
+				div.centro div.conteudoInternas#produtos div.direita p { line-height:18px;}
+				div.centro div.conteudoInternas#produtos div.direita p strong { font-size:14px;}
+				
+				div.centro div.conteudoInternas#produtos div.direita ul#saborProdutos{
+					margin-top:5px;
+					list-style:disc !important;
+					text-align:left;
+					margin-left:25px;
+				}
+				
+				div.centro div.conteudoInternas#produtos div.direita ul#saborProdutos li {margin-bottom:5px;}
+		
+		/* Informacoes */
+		
+		
+		div.centro div.subMenu#informacoes {background:url(../imagens/backgrounds/topoInfo.png) no-repeat center top;}
+		
+		div.centro div.rodapeInternas#informacoes{background:url(../imagens/backgrounds/rodapeInfo.png) no-repeat center top;}
+		
+			div.centro div.conteudoInternas#informacoes div.esquerda h1, 
+			div.centro div.conteudoInternas#informacoes div.direita h1 {width:auto; padding-left:0;}
+		
+			div.centro div.conteudoInternas#informacoes div.esquerda {
+				width: 425px;
+				float: left;
+				margin-left:30px;
+			}
+				div.centro div.conteudoInternas#informacoes div.esquerda div#eventos {margin:0;padding:0;	}
+					
+					div.centro div.conteudoInternas#curiosidades ul.listaCuriosidades p,
+					div.centro div.conteudoInternas#informacoes div.esquerda p {
+						margin:0;
+						padding:0;
+						text-align:justify !important;
+						vertical-align:top;
+					}
+						
+						div.centro div.conteudoInternas#curiosidades ul.listaCuriosidades li h3,
+						div.centro div.conteudoInternas#informacoes div.esquerda h3 {
+							margin:0;
+							padding:0;
+							width:auto;
+							font-size:14px;
+							font-weight:bold;
+							text-align:left;
+							margin-bottom:5px;
+						}
+						
+						div.centro div.conteudoInternas#curiosidades ul.listaCuriosidades li img,
+						div.centro div.conteudoInternas#informacoes div.direita ul#noticias li img, 
+						div.centro div.conteudoInternas#informacoes div.esquerda img {
+							border:1px solid #CCC;
+							float:left;
+							margin-right:10px;
+							margin-bottom:20px;
+						}
+					
+			div.centro div.conteudoInternas#informacoes div.direita {
+				background:none;
+				width: 405px; min-height:467px; height:auto;
+				float: left;
+				margin:0 30px;
+				border-left:1px dashed #ccc;
+				padding-left:30px;
+			}
+			
+				div.centro div.conteudoInternas#informacoes div.direita ul#noticias {margin-top:15px; }
+				
+				div.centro div.conteudoInternas#informacoes div.direita ul#noticias li{
+					border-bottom:1px dashed #ddd; 
+					margin-bottom:20px; padding-bottom:10px;
+					float:left; width:405px;  
+					text-align:justify;}
+					
+					div.centro div.conteudoInternas#informacoes div.direita ul#noticias li img {margin-bottom:10px;}
+					
+					div.centro div.conteudoInternas#informacoes div.direita ul#noticias li h2, 
+					div.centro div.conteudoInternas#informacoes div.direita ul#noticias li h3 {
+						margin:0; 
+						padding:0; 
+						width:auto; 
+						font-weight:normal; 
+						text-align:left; 
+						margin-bottom:5px; 
+					}
+					
+					div.centro div.conteudoInternas#informacoes div.direita ul#noticias li a {
+						
+					}
+				
+	/* curiosidades */
+	
+		div.centro div.conteudoInternas#curiosidades ul.listaCuriosidades {
+				float:left;			
+				margin: 20px 30px;
+		}
+			
+			div.centro div.conteudoInternas#curiosidades ul.listaCuriosidades li{
+				float:left;			
+				width: 265px;
+				margin: 0 30px 30px 0;
+				text-align:justify;
+			}
+			
+			div.centro div.conteudoInternas#curiosidades ul.listaCuriosidades li img {margin-bottom:0;}
+			
+	/* cuidados com o sorvete */
+	
+	div.centro div.conteudoInternas#cuidados div.esquerda {
+			border-right:1px dashed #ccc;
+			width: 425px;
+			float: left;
+			margin-left:30px;
+			margin-top:20px;
+		}
+			
+				div.centro div.conteudoInternas#cuidados div.esquerda p{
+					
+					margin-right:30px;
+				}
+		
+			div.centro div.conteudoInternas#cuidados div.direita {
+				background:none;
+				width: 435px;
+				float: left;
+				margin: 20px 30px 0 30px;
+				height:250px;
+			}
+		
+				div.centro div.conteudoInternas#cuidados p { margin:0; padding:0;}
+				
+				div.centro div.conteudoInternas#cuidados h3 { 
+					margin:  15px 0;
+					text-align:left;
+					font-weight:bold;
+				}
+				
+				
+				
+			
+	
+	/* contato */
+		
+		div.centro div.conteudoInternas#contato form {
+			margin-top:20px;
+			float: left;
+			margin-left:30px;
+		}
+	
+		div.centro div.conteudoInternas#contato form fieldset {
+			border:1px solid #00adcd;
+			width: 500px;
+		}
+		
+			div.centro div.conteudoInternas#contato form fieldset legend {
+				font-size: 12px;
+				margin-left:10px;
+				*margin-left:5px;
+				padding: 0 5px;
+			}
+			
+			div.centro div.conteudoInternas#contato form fieldset table {margin: 20px; width:390px;}
+			
+				div.centro div.conteudoInternas#contato form fieldset table tr td {
+					font-size:12px;
+					text-align: right;
+					padding-right: 10px;
+					font-weight: bold;
+					padding-bottom: 10px;
+					vertical-align: top;
+				}
+				
+					div.centro div.conteudoInternas#contato form fieldset table tr td b {color:#ff0000;}
+					
+					div.centro div.conteudoInternas#contato form fieldset table tr td p {
+						font-size:11px; 
+						float: right; 
+						text-align: right; 
+						width:150px; 
+						margin:0; 
+						padding:0;
+					}
+					
+					div.centro div.conteudoInternas#contato form fieldset table tr td input,
+					div.centro div.conteudoInternas#contato form fieldset table tr td textarea  {float: left; width: 300px;}
+					
+					div.centro div.conteudoInternas#contato form fieldset table tr td textarea {height: 75px;}
+					
+					div.centro div.conteudoInternas#contato form fieldset table tr td input.botao {
+						margin-top:15px; 
+						width:60px; 
+						float: right;
+					}
+					
+					
+					div.centro div.conteudoInternas#contato form fieldset table tr td div.erro {
+						color: #00adcd;
+						font-size: 14px;
+						border:1px solid #a5acb2;
+						background-color: #eee;
+						float:left;
+						padding: 3px;
+						width: 385px;
+					}
+					
+					address.contato {
+						position:absolute;
+						top:244px;
+						right:35px;
+						width:350px; 
+						border:1px solid #999; 
+						padding:10px;
+						text-align:left;
+						font-size:14px;
+						line-height: 18px;
+			
+					}
+					
+					address strong {font-weight:bold;}
+
+		/* restrito */
+		
+		div.centro div.conteudoInternas#restrito form {display:block;}
+		
+			div.centro div.conteudoInternas#restrito form fieldset{
+				margin:0 auto;
+				border:1px solid #CCC;
+				padding: 30px 0 25px 0;
+				width:400px;
+				
+			}
+		
+				div.centro div.conteudoInternas#restrito form fieldset label{
+					clear: left;
+					display: block;
+					float: left;
+					text-align: right;
+					width: 70px;
+					margin-left: 80px;
+					margin-bottom: 10px;
+					font-size:18px;
+				}
+		
+				div.centro div.conteudoInternas#restrito form fieldset input.campos{
+					width:100px;
+					font-size:14px;
+					float:left;
+					margin-left:15px;
+					margin-bottom:10px;
+					display:block;
+				}
+				
+				div.centro div.conteudoInternas#restrito form fieldset input.entrar{
+					background:url(../imagens/botoes/bg_bt.jpg) no-repeat top center;
+					border:0;
+					width: 56px;
+					height:27px;
+					font-weight:bold;
+					float:right;
+					margin-right:90px;
+				}
+
+		/* mapa do site */
+		div.centro div.conteudoInternas#mapa div.esquerda {
+			width: 425px;
+			float: left;			
+			margin: 30px 0 0 30px;
+		}
+		
+		div.centro div.conteudoInternas#mapa div.direita {
+			background:none !important;
+			width: 435px;
+			float: left;
+			margin: 30px 0 0 30px;
+			height:230px !important}
+		}
+		
+			div.centro div.conteudoInternas#mapa div.esquerda ul ,
+			div.centro div.conteudoInternas#mapa div.direita ul {float:left}
+			
+				div.centro div.conteudoInternas#mapa div.direita ul li.linkado {margin-bottom:15px;}
+			
+					ul.listaMapa {
+						float:left;
+						list-style:circle;
+						margin: 10px 0;
+					}
+					
+						ul.listaMapa li {
+							text-align:left;
+							margin: 0 0 10px 80px;
+							font-weight:bold;
+						}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+

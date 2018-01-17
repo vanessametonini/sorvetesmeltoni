@@ -1,0 +1,473 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin								: 0;
+	padding								: 0;
+	border								: 0;
+	outline								: 0;
+	font-weight							: inherit;
+	font-style							: inherit;
+	font-size							: 100%;
+	font-family							: inherit;
+	vertical-align						: baseline;
+}
+
+a abbr {
+	cursor 								: pointer;
+}
+
+abbr {
+	cursor								: help;
+}
+
+body {
+	line-height							: 1;
+	color								: black;
+	background							: white;
+}
+
+ol, ul {
+	list-style							: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse						: separate;
+	border-spacing						: 0;
+}
+
+caption, th, td {
+	text-align							: left;
+	font-weight							: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content								: "";
+}
+
+blockquote, q {
+	quotes								: "" "";
+}
+
+.acessibilidade {
+	height								: 1%;
+	left								: -9999em;
+	position							: absolute;
+	top									: -9999em;
+	width								: 1%;
+	z-index								: -99;
+}
+
+.ocultar {
+	display 								: none;
+}
+
+.invisivel {
+	display								: none;
+}
+
+/* FIM DO RESET */
+
+a {
+	cursor								: pointer;
+	text-decoration						: none;
+}
+
+a:hover {
+	text-decoration						: underline;
+}
+
+IMG {behavior: url("iepngfix.htc");}
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#000;
+	background-image:url(../imagens/backgrounds/background.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+	font-family: Arial;
+	font-size:12px;
+	color:#000;
+
+}
+div.tudo {
+	width: 100%;
+	height: 100%;
+	text-align:center;
+}
+
+div.principal {
+	margin: 0 auto;
+	width: 956px;
+	height: 600px;
+	margin-top:20px;
+	background: url("../imagens/backgrounds/conteudo.png") no-repeat top center;
+	behavior: url("iepngfix.htc");
+}
+
+div.esquerda {
+	width:276px;
+	height: 580px;
+	float:left;
+	margin: 10px 0 0 10px;
+}
+
+.ie6 div.esquerda {
+	width: 274px;
+	margin: 9px 0 0 5px;
+}
+
+	div.esquerda div.logo {
+		width:260px;
+		margin: 15px 0 0 0;
+	}
+	
+	div.esquerda div.menu {
+		width:274px;
+		float:left;
+		margin:50px 0 0 0;
+		
+	}
+	
+		div.esquerda div.menu UL {float:left;}
+		
+			div.esquerda div.menu UL li {
+				font-size:18px;
+				color: #333;
+				text-align:left;
+				height:54px;
+				width:200px;
+				list-style:disc;
+				margin-left:45px;
+				margin-bottom:10px;
+			}
+			
+				div.esquerda div.menu UL li A {
+					color: #333;
+					height:22px;
+					width:200px;
+					display: block;
+					padding-top:15px;
+					padding-bottom:15px;
+					padding-left:0px;
+				}
+				
+				div.esquerda div.menu UL li A:hover{color:#00adcd;}
+				
+				div.esquerda div.menu UL li:hover {}
+				
+
+div.direita {
+	width:660px;
+	height: 580px;
+	float:right;
+	margin: 10px 10px 0 0;
+	
+}
+
+.ie6 div.direita {margin: 10px 5px 0 0;}
+
+	div.direita div.menuTopo {
+		width:660px;
+		height:32px;
+		margin:15px 0 0 0;
+		background: url("../imagens/backgrounds/bg_menu_cima.jpg") repeat-x bottom center;
+	}
+
+	div.direita div.menuTopo UL {float:right;}
+	
+		div.direita div.menuTopo UL li {float:left;}
+		
+		div.direita div.menuTopo UL li H2 {
+			color:#fff;
+			font-size:14px;
+			font-weight:bold;
+		}
+		
+		div.direita div.menuTopo UL li A {color:#fff;}
+		
+		div.direita div.menuTopo UL li IMG {margin-right:15px;}
+		
+		div.direita div.menuTopo UL li IMG.separador {
+			margin-left:25px;
+			margin-right:20px;
+		}
+	
+	div.direita div.centro {
+		height:530px;
+	}
+	
+		div.direita div.centro div.bemvindo {
+			height:500px;
+			background: url("../imagens/backgrounds/bemvindo.jpg") no-repeat bottom center;
+		}
+		
+			div.direita div.centro div.bemvindo div {
+				padding-top:90px;
+				font-size: 46px;
+				color:#333;
+				text-align:center;
+				font-weight:bold;
+			}
+			
+			div.direita div.centro div.bemvindo div.tit {
+				padding-top:185px;
+				font-size: 36px;
+				color:#00adcd;
+				text-align:center;
+				font-weight:bold;
+			}
+			
+		div.direita div.centro div.titulos {
+			width:660px;
+			height: 92px;
+			background: url("../imagens/backgrounds/bg_titulos.gif") repeat-x top center;
+			position:relative;
+		}
+		
+		div.direita div.centro div.titulos H1 {
+			font-weight: bold;
+			font-size: 20px;
+			position: absolute;
+			top:24px;
+			left:30px;
+		}
+		
+		div.direita div.centro div.titulos H2 {
+			float:left;
+			font-weight: normal;
+			font-size: 18px;
+			margin: 55px 0 0 29px;
+		}
+		
+		.ie6 div.direita div.centro div.titulos H2 {
+			margin-left:14px;
+		}
+		
+			div.direita div.centro div.titulos H2 strong{
+				font-weight: normal;
+				font-size: 24px;
+			}
+		
+			div.direita div.centro div.titulos H2 a {
+				color:#00adcd;
+		    }
+			
+		div.direita div.centro div.titulos div.busca {
+			float:right;
+			margin: 49px 25px 0 0;
+			height:19px;
+			position:relative;
+			font-size:14px;
+		}
+		
+			div.direita div.centro div.titulos div.busca input.busca {
+				height:13px;
+				width: 118px;
+				background-color:#fff;
+				border:1px solid #646464;
+				font-size:11px;
+				color:#333;
+				position:absolute;
+				top:2px;
+				right: 35px;
+			}
+			
+			
+			
+	div.direita div.centro div.formulario,
+	div.direita div.centro div.formulario form,
+	div.direita div.centro div.listagem {
+			width:660px;
+			height: 440px;
+	}
+	
+		div.direita div.centro div.listagem H2 {
+				width:630px;
+				float:left;
+				margin: 10px 0 0 0;
+				padding-left:30px;
+				font-weight: bold;
+				font-size: 12px;
+				color:#333;
+				text-align: left;
+		}
+	
+		div.direita div.centro div.listagem table {
+				float:left;
+				margin: 10px 0 0 30px;
+				width:605px;
+		}
+		
+		.ie6 div.direita div.centro div.listagem table {margin-left:15px;}
+		
+		div.direita div.centro div.listagem table TR.header{
+			background-color: #bbb;
+		}
+		
+		div.direita div.centro div.listagem table TR{
+			background-color: #eee;
+		}
+		
+		div.direita div.centro div.listagem table TR.corSim{
+			background-color: #ddd;
+		}
+		
+			div.direita div.centro div.listagem table TR th{
+				color: #000;
+				font-weight: bold;
+				padding: 5px 0 0 10px;
+				text-align: left;
+				height: 21px;
+				*height: 15px;
+				border-right: 1px solid #646464;
+			}
+			
+			div.direita div.centro div.listagem table TR td{
+				color: #333;
+				padding: 5px 0 0 10px;
+				text-align: left;
+				height: 21px;
+				*height: 15px;
+				border-right: 1px solid #646464;
+				border-bottom: 1px solid  #646464;
+			}
+			
+			div.direita div.centro div.listagem table TR td.noBorda,
+			div.direita div.centro div.listagem table TR th.noBorda {
+				border-right: 0;
+			}
+			
+			
+				div.direita div.centro div.formulario form fieldset {
+					margin: 0 auto;
+					margin-top:10px;
+					border:1px solid #646464;
+					width: 605px;
+					height: 400px;
+					padding-top:10px;
+				}
+				
+				div.direita div.centro div.formulario form fieldset legend {
+					font-weight: bold;
+					font-size: 12px;
+					color:#333;
+					margin-left:5px;
+					padding: 0 2px;
+					text-transform: uppercase;
+				}
+				
+				div.direita div.centro div.formulario form fieldset table {
+					width: 550px;
+					margin: 0 0 10px 0;
+				}
+				
+					div.direita div.centro div.formulario form fieldset table tr td {
+						text-align:right;
+						padding-right:10px;
+						font-weight:bold;
+						color:#646464;
+						padding-bottom:15px;
+						vertical-align:top;
+					}
+				
+						div.direita div.centro div.formulario form fieldset table tr td b {
+							font-weight:bolder;
+							color:#ff0000;
+						}
+						
+						div.direita div.centro div.formulario form fieldset table tr td P {
+							font-style: italic;
+							font-size: 11px;
+							color:#999;
+							font-weight:normal;
+						}
+						
+						div.direita div.centro div.formulario form fieldset table tr td img,
+						div.direita div.centro div.formulario form fieldset table tr td textarea,
+						div.direita div.centro div.formulario form fieldset table tr td select,
+						div.direita div.centro div.formulario form fieldset table tr td input {
+							float: left;
+							font: normal 12px arial;
+							color: #646464;
+						}
+						
+						div.direita div.centro div.formulario form fieldset table tr td input.inputGrande {width: 470px;}
+						div.direita div.centro div.formulario form fieldset table tr td input.ddd {width: 25px;}
+						div.direita div.centro div.formulario form fieldset table tr td input.telefone {width: 150px; margin-left:10px;}
+						div.direita div.centro div.formulario form fieldset table tr td textarea {width: 470px; height: 40px;}
+						div.direita div.centro div.formulario form fieldset table tr td.cidade {width: 250px;}
+						div.direita div.centro div.formulario form fieldset table tr td.cidade input {width: 250px;}
+						div.direita div.centro div.formulario form fieldset table tr td.estado  {width: 50px;}
+						div.direita div.centro div.formulario form fieldset table tr td select.estado  {width: 150px;}
+						div.direita div.centro div.formulario form fieldset table tr td div.botoes {float: right; margin-top:5px;}
+						div.direita div.centro div.formulario form fieldset table tr td div.botoes input {margin-left:15px;}
+						
+						div.direita div.centro div.formulario form fieldset table tr td div.erro {
+							float: none; 
+							text-align:center;
+							*margin-top:10px;
+							border:1px solid red;
+							padding:3px;
+							color: #ff0000;
+							background-color: #fbda00;
+						}
+						
+						
+						
+	/* pagina detalhe */
+	
+			div.direita div.centro div.detalhe {
+				font-size:16px;
+			}
+				
+			div.direita div.centro div.detalhe h2{
+				float:left;
+				font-weight: normal;
+				font-size: 18px;
+				margin: 10px 0 0 29px;
+				color:#00adcd;
+				width:100%;
+				text-align:left;
+			}
+			
+			div.direita div.centro div.detalhe h3{
+				float:left;
+				font-weight: bold;
+				font-size: 12px;
+				margin: 10px 0 0 0;
+				color:#333;
+				width:100%;
+				text-align:left;
+			}
+			
+			div.direita div.centro div.detalhe div#detalheRegistro {
+				margin-left: 29px;
+				display:block;
+				text-align:left;
+				margin-top:10px;
+				line-height: 30px;
+			}
+			
+			div.direita div.centro div.detalhe div.controles {
+				border-top:1px solid #00adcd;
+				width:90%;
+				margin: 0 30px;
+				height:50px;
+				margin-top:40px;
+			}
+			
+			div.direita div.centro div.detalhe div.controles div.botoes {margin-top:10px;}
+			
+			div.direita div.centro div.detalhe div.controles div.botoes a {margin-right:10px;}
+			
+			
